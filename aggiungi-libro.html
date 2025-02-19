@@ -49,46 +49,47 @@
   <div class="container-md">
     <form class="row g-3">
       <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
+        <label for="author-name" class="form-label">Nome Autore</label>
+        <input type="name" class="form-control" id="author-name" placeholder="Inserisci il nome dell'autore">
       </div>
       <div class="col-md-6">
-        <label for="inputPassword4" class="form-label">Password</label>
-        <input type="password" class="form-control" id="inputPassword4">
+        <label for="author-surname" class="form-label">Cognome Autore</label>
+        <input type="surname" class="form-control" id="author-surname" placeholder="Inserisci il cognome dell'autore">
       </div>
       <div class="col-12">
-        <label for="inputAddress" class="form-label">Address</label>
-        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-      </div>
-      <div class="col-12">
-        <label for="inputAddress2" class="form-label">Address 2</label>
-        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-      </div>
-      <div class="col-md-6">
-        <label for="inputCity" class="form-label">City</label>
-        <input type="text" class="form-control" id="inputCity">
+        <label for="title" class="form-label">Titolo</label>
+        <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
       </div>
       <div class="col-md-4">
-        <label for="inputState" class="form-label">State</label>
-        <select id="inputState" class="form-select">
-          <option selected>Choose...</option>
+        <label for="genre" class="form-label">Genere</label>
+        <select id="genre" class="form-select">
+          <option selected>Scegli il genere</option>
           <option>...</option>
         </select>
       </div>
-      <div class="col-md-2">
-        <label for="inputZip" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="inputZip">
+      <div class="col-md-4">
+        <label for="publication-year" class="form-label">Anno di Pubblicazione</label>
+        <input type="text" class="form-control" id="publication-year" placeholder="Inserisci l'anno">
+      </div>
+      <div class="col-md-4">
+        <label for="inputZip" class="form-label">ISBN#</label>
+        <input type="text" class="form-control" id="inputZip" placeholder="Inserisci il codice ISBN#">
+      </div>
+      <div class="col-12">
+        <hr>
+        <label for="exampleFormControlTextarea1" class="form-label">Note</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
       </div>
       <div class="col-12">
         <div class="form-check">
           <input class="form-check-input" type="checkbox" id="gridCheck">
           <label class="form-check-label" for="gridCheck">
-            Check me out
+            Disponibile anche in digitale
           </label>
         </div>
       </div>
       <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
+        <a class="btn btn-primary" href="index.html" role="button">Aggiungi Libro</a>
       </div>
     </form>
   </div>
